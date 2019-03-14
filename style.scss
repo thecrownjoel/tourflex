@@ -1,39 +1,62 @@
 body {
     background-color: white;
 }
+.container {
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+input[type=search] {
+    border-bottom: 2px solid #999;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    font-size: 2em;
+    padding: 10px;
+    -webkit-appearance: none;
+    background-color: #efefef;
+  }
+input:focus {
+    outline: none; 
+}
+
 .tour-container {
-    border: 3px solid black;
+    // border: 3px solid black;
     padding: 5px;
 }
 .tourdates {
-    border: 2px solid red;
+    // border: 2px solid red;
     padding: 4px;
     max-width: 800px;
     margin: auto;
 }
 .tour-wrapper {
-    border: 1px solid blue;
+    // border: 1px solid blue;
     display: flex;
     padding: 30px;
-    text-align: center;
+    > div {
+        padding: 0 15px;
+    }
     #date {
-        flex: 1;
-        background-color: gray;
+        flex-basis: 20%;
         margin: auto;
+        text-align: left;
     }
     #venue {
-        flex: 1;
-        background-color: darkkhaki;
+        flex-basis: 35%;
         margin: auto;
+        text-align: left;
     }
     #location {
-        flex: 1;
-        background-color: gray;
+        flex-basis: 35%;
         margin: auto;
+        text-align: left;
     }
     #buyurl {
-        flex: 1;
-        background-color: darkkhaki;
+        flex-basis: 10%;
         margin: auto;
+        text-align: center;
     }
 }

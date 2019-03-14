@@ -2,56 +2,74 @@ body {
   background-color: white;
 }
 
+.container {
+  margin: auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+input[type=search] {
+  border-bottom: 2px solid #999;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  font-size: 2em;
+  padding: 10px;
+  -webkit-appearance: none;
+  background-color: #efefef;
+}
+
+input:focus {
+  outline: none;
+}
+
 .tour-container {
-  border: 3px solid black;
   padding: 5px;
 }
 
 .tourdates {
-  border: 2px solid red;
   padding: 4px;
   max-width: 800px;
   margin: auto;
 }
 
 .tour-wrapper {
-  border: 1px solid blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
-  text-align: center;
+}
+
+.tour-wrapper > div {
+  padding: 0 15px;
 }
 
 .tour-wrapper #date {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  background-color: gray;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
   margin: auto;
+  text-align: left;
 }
 
 .tour-wrapper #venue {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  background-color: darkkhaki;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
   margin: auto;
+  text-align: left;
 }
 
 .tour-wrapper #location {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  background-color: gray;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
   margin: auto;
+  text-align: left;
 }
 
 .tour-wrapper #buyurl {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  background-color: darkkhaki;
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
   margin: auto;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

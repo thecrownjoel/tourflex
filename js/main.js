@@ -34,5 +34,3 @@ $.ajax({
       
     } // success close
   }); // $.ajax close
-
- 
