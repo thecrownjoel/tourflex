@@ -1,4 +1,57 @@
 body {
-  background-color: tomato;
+  background-color: white;
+}
+
+.tour-container {
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.tourdates {
+  border: 2px solid red;
+  padding: 4px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.tour-wrapper {
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  text-align: center;
+}
+
+.tour-wrapper #date {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: gray;
+  margin: auto;
+}
+
+.tour-wrapper #venue {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: darkkhaki;
+  margin: auto;
+}
+
+.tour-wrapper #location {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: gray;
+  margin: auto;
+}
+
+.tour-wrapper #buyurl {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: darkkhaki;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
