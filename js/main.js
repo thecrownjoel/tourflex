@@ -33,4 +33,18 @@ $.ajax({
       }); // $.each closer
       
     } // success close
+    
   }); // $.ajax close
+
+
+  document.querySelector("h1").addEventListener("click", displayDate);
+
+  function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  }
+
+  document.querySelector("h1").addEventListener("click", displayDate);
+
+  function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  }
