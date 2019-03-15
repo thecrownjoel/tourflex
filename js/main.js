@@ -37,14 +37,8 @@ $.ajax({
   }); // $.ajax close
 
 
-  document.querySelector("h1").addEventListener("click", displayDate);
-
-  function displayDate() {
-    document.getElementById("demo").innerHTML = Date();
-  }
-
-  document.querySelector("h1").addEventListener("click", displayDate);
-
-  function displayDate() {
-    document.getElementById("demo").innerHTML = Date();
-  }
+$('#form').on('submit', function(e) {
+  e.preventDefault();
+  const value = $('#inputname').val();
+  console.log(value);
+});

@@ -73,7 +73,7 @@ input[type=submit] {
 
 // Media Queries // 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
     body {
         background-color: aquamarine;
     }
@@ -87,30 +87,31 @@ input[type=submit] {
         // border: 1px solid blue;
         display: flex;
         padding: 10px;
-        flex-wrap: wrap
-        // > div {
-        //     padding: 0 15px;
-        // }
-        // #date {
-        //     flex-basis: 10%;
-        //     margin: auto;
-        //     text-align: left;
-        // }
-        // #venue {
-        //     flex-basis: 45%;
-        //     margin: auto;
-        //     text-align: left;
-        // }
-        // #location {
-        //     flex-basis: 45%;
-        //     margin: auto;
-        //     text-align: right;
-        // }
-        // #buyurl {
-        //     flex-basis: 0%;
-        //     margin: auto;
-        //     text-align: right;
-        // }
+        flex-wrap: wrap;
+        flex-direction: column;
+        > div {
+            padding: 0 15px;
+        }
+        #date {
+            flex-basis: 10%;
+            margin: auto;
+            text-align: left;
+        }
+        #venue {
+            flex-basis: 45%;
+            margin: auto;
+            text-align: left;
+        }
+        #location {
+            flex-basis: 45%;
+            margin: auto;
+            text-align: right;
+        }
+        #buyurl {
+            flex-basis: 0%;
+            margin: auto;
+            text-align: right;
+        }
     }
   }
 
